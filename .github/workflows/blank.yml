@@ -45,5 +45,5 @@ jobs:
         run: docker -v
       - name: check git version
         run: git --version
-      - name: terraforms version 
-        run: terraforms --version
+      - name: terraform version 
+        run: terraform --version
